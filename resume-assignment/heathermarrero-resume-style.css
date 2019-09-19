@@ -1,0 +1,12 @@
+*{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.center{
+    text-align: center;
+    color:#ff9966;
+}

@@ -1,12 +1,46 @@
 *{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1px;
+    background-color: #fff9f7;
+    color:#65676b;
 }
 
-.center{
+main{
+    padding: 10px;
+    border-style: dotted;
+    border-color:#ff9966;
+    border-width: 1px;
+    border-radius: 5px;
+    color:#65676b;
+}
+h1.center,h2.center,h3.center{
     text-align: center;
     color:#ff9966;
 }
+
+p.center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+a:link{
+    color:#ff9966;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:blue;
+}
+
+

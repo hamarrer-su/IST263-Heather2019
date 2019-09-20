@@ -16,7 +16,15 @@ main{
 
 h1.center,h2.center,h3.center{
     text-align: center;
-    color:#ff9966;
+    color: #ff9966;
+}
+
+ul{
+    padding: 20px;
+    border-top: dotted;
+    border-color: #ff9966;
+    border-width: 1px;
+    
 }
 
 p.center{
@@ -25,6 +33,7 @@ p.center{
 
 .bold{
     font-weight: bold;
+    color:#ff9966;
 }
 
 .italic{

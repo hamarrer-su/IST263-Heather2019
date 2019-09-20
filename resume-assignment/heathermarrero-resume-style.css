@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family: 'IBM Plex Serif', serif;
     letter-spacing: 1px;
@@ -44,3 +45,17 @@ a:visited{
 }
 
 
+=======
+*{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.center{
+    text-align: center;
+    color:#ff9966;
+}
+>>>>>>> 5c9fa0544105f69c922e0f3a43ce13e802ab934b

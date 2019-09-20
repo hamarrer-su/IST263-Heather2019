@@ -6,11 +6,11 @@
 }
 
 main{
-    padding: 10px;
+    padding: 5px;
     border-style: dotted;
     border-color:#ff9966;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 30px;
     color:#65676b;
 }
 

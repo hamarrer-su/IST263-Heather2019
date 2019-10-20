@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RSVP</title>
+    <link rel="stylesheet" type="text/css" href="" />
+
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>RSVP</h1>
+            <form> <!--No .php file to store input as this is simply for the visual (for now)-->
+                First Name:
+                <input type="text" name="firstname"/><br/>
+                Last Name:
+                <input type="text" name="lastname"><br/>
+                Phone Number:
+                <input type="text" name="phonenumber"/><br/>
+                Will you be attending the event?
+                <input type="radio" name="response" value="yes" checked>Yes
+                <input type="radio" name="response" value="no">No
+                <input type="radio" name="response" value="unsure"> Unsure<br/>
+                If you answered yes to attending, how many guests will be with you? (No more than 4 per guest)<br/>
+                <input type="radio" name="value" value="0" checked>0<br/>
+                <input type="radio" name="value" value="1" checked>1<br/>
+                <input type="radio" name="value" value="2" checked>2<br/>
+                <input type="radio" name="value" value="3" checked>3<br/>
+                <input type="radio" name="value" value="4" checked>4<br/>
+                If you answered no or unsure to attending, please let us know why in the field below:<br/>
+                <input type="text" name="reasoning"><br/>
+                <input type="submit">
+
+            </form>
+        </section>    
+    </main>
+    
+</body>
+
+</html>

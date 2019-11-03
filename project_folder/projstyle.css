@@ -14,29 +14,58 @@
     font-family:"awesomeregular";
 }
 
-.navbar{
-    margin:50px;
-    position: sticky;
-    text-align: center;
+.site-header{
+    display:flex;
+}
+
+#logo{
+    flex:1;
+    padding:1;
+}
+
+#logo-dimensions{
+    width:200px;
+}
+
+nav ul.nav-left{
+    flex:1;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar li {
-    display: inline;
+nav ul.nav-right{
+    flex:1;
+    list-style-type: none;
 }
 
-.navbar a{
-    font-size: 40px;
+ul.nav-left li {
+    display: inline-block;
+    float:left;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+ul.nav-right li {
+    display: inline-block;
+    float:right;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+
+li a{
     color:white;
-    size:50px;
     background-color:#cb8a90;
-    border-radius: 15px;
+    border-radius: 50px;
     text-decoration: none;
+    text-align:center;
+    font-family:"awesomescript";
+    font-size: 20px;
+    font-weight: normal;
 }
 
-.header{
+
+
+.landing-title{
     padding:1px;
     border:4px;
     margin:30px;
@@ -95,24 +124,25 @@ h1{
     height:400px;
     float:left;
     size:100px;
-    margin-top:100px;
-    margin-left:50px;
+    margin-bottom:100px;
+    margin-left:20px;
     margin-right:20px;
-    border-style: solid;
+    border-style: dotted;
+    border-radius: 50%;
 }
 
 .stories{
-    margin-top:300px;
+    margin-top:20px;
 }
 
 .stories h2{
     font-weight:normal;
-    font-size:70px;
+    font-size:80px;
     text-align: center;
 }
 
 .stories p{
-    font-size: 20px;
+    font-size: px;
 }
 
 .stories article h2{
@@ -121,14 +151,54 @@ h1{
     font-weight: normal;
 }
 
+.palette-title{
+    font-weight:normal;
+    font-size:80px;
+    text-align: center;
+}
+
 .decopalette{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-style:solid;
+    border-radius: 50%;
+    float: center;
 }
 
 #placards{
-    width:100px;
-    height:100px;
+    width:400px;
+    height:400px;
+    float:left;
+    size:100px;
+    margin-bottom:100px;
+    margin-left:20px;
+    margin-right:20px;
+    border-style: dotted;
+    border-radius: 50%;
 }
+
+input{
+    font-size: 20px;
+    width:20%;
+    padding: 8px 16px;
+    margin:8px 0;
+    border:1px solid;
+    box-sizing: border-box;
+    outline:none;
+}
+
+input:focus{
+    border: 3px solid #cb8a90;
+}
+
+.deco-titles{
+    font-size: 80px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
 
 
 

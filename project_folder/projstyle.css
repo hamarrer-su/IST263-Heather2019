@@ -12,6 +12,7 @@
     background-color: #eecfbb;
     color:#cb8a90;
     font-family:"awesomeregular";
+    font-size: 23px;
 }
 
 .site-header{
@@ -20,7 +21,9 @@
 
 #logo{
     flex:1;
-    padding:1;
+    display: inline-block;
+    align-content: center;
+    margin-right: 10px;
 }
 
 #logo-dimensions{
@@ -30,25 +33,22 @@
 nav ul.nav-left{
     flex:1;
     list-style-type: none;
+    margin-right: 20px;
 }
 
 nav ul.nav-right{
     flex:1;
     list-style-type: none;
+    transform: translate(-150px);
+    margin-right: 20px;
 }
 
 ul.nav-left li {
     display: inline-block;
-    float:left;
-    padding-left: 20px;
-    padding-right:20px;
 }
 
 ul.nav-right li {
     display: inline-block;
-    float:right;
-    padding-left: 20px;
-    padding-right:20px;
 }
 
 
@@ -59,7 +59,7 @@ li a{
     text-decoration: none;
     text-align:center;
     font-family:"awesomescript";
-    font-size: 20px;
+    font-size: 70px;
     font-weight: normal;
 }
 
@@ -196,6 +196,14 @@ input:focus{
     font-size: 80px;
     text-align: center;
     font-weight: normal;
+    margin-bottom: 10px;;
+}
+
+.deco-blurb{
+    font-size:30px;
+    text-align: center;
+    font-weight:normal;
+    margin-top: 10px;
 }
 
 

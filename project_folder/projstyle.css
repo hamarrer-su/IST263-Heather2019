@@ -1,6 +1,6 @@
 @font-face{
     font-family: "awesomeregular";
-    src: url("just-awesome-regular.ttf");
+    src: url("gotham-extra-light.otf");
 }
 
 @font-face{
@@ -9,10 +9,11 @@
 }
 
 *{
-    background-color: #eecfbb;
+    background-color: #ffe0e1;
     color:#cb8a90;
     font-family:"awesomeregular";
-    font-size: 23px;
+    font-size: 20px;
+    font-weight:bold;
 }
 
 .site-header{
@@ -64,27 +65,30 @@ li a{
 }
 
 
-
 .landing-title{
     padding:1px;
     border:4px;
+    border-color: white;
     margin:30px;
     position: relative;
     border-style: dotted;
     border-radius: 25px;
-    background-color: #ffeadc;
+    background-color: #cb8a90;
 }
+
 
 h1{
     margin-top:20px;
     margin-bottom:10px;
-    background-color: #ffeadc;
+    background-color: #cb8a90;
+    color:white;
 }
 
 .blurb{
     text-align: center;
-    background-color:#ffeadc;
+    background-color:#cb8a90;
     font-size: 20px;
+    color:white;
 }
 .script{
     text-align:center;
@@ -129,6 +133,20 @@ h1{
     margin-right:20px;
     border-style: dotted;
     border-radius: 50%;
+    transform: translateY(100px) ;
+}
+
+.storyimg-l{
+    width:400px;
+    height:400px;
+    float:right;
+    size:100px;
+    margin-bottom:100px;
+    margin-left:20px;
+    margin-right:20px;
+    border-style: dotted;
+    border-radius: 50%;
+    transform: translateY(100px) ;
 }
 
 .stories{
@@ -141,9 +159,10 @@ h1{
     text-align: center;
 }
 
-.stories p{
-    font-size: px;
+.bottom{
+    border-bottom: 1px dotted #cb8a90;
 }
+
 
 .stories article h2{
     font-family:"awesomescript";
@@ -151,19 +170,41 @@ h1{
     font-weight: normal;
 }
 
+
 .palette-title{
     font-weight:normal;
     font-size:80px;
     text-align: center;
 }
 
-.decopalette{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style:solid;
-    border-radius: 50%;
-    float: center;
+.palette-borders{
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.embellishments-borders{
+    border-bottom-style:solid;
+}
+
+.palette{
+    display:inline;
+    width:100px;
+    height:100px;
+    padding:15px;
+    margin-left: 90px;
+    margin-top:25px;
+    margin-bottom:50px;
+}
+
+.embellishments{
+    width:300px;
+    height:300px;
+    padding:5px;
+    margin-top:25px;
+    margin-bottom:50px;
+    margin-left:80px;
+    margin-right:80px;
+    border-right-style:solid;
 }
 
 #placards{
@@ -173,7 +214,7 @@ h1{
     size:100px;
     margin-bottom:100px;
     margin-left:20px;
-    margin-right:20px;
+    margin-right:50px;
     border-style: dotted;
     border-radius: 50%;
 }
@@ -193,20 +234,37 @@ input:focus{
 }
 
 .deco-titles{
+    font-family:"awesomescript";
     font-size: 80px;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
-    margin-bottom: 10px;;
+    margin-bottom: 50px;
 }
 
 .deco-blurb{
     font-size:30px;
-    text-align: center;
+    text-align: left;
     font-weight:normal;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+.guidelines{
+    display:flex;
+}
+
+.do{
+    flex:1;
+}
+
+.dont{
+    flex:1;
 }
 
 
-
+p{
+    line-height: 1.6;
+}
 
 

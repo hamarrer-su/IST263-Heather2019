@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Attire Styleguide</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="projstyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+            </style>
 
 </head>
 
@@ -14,15 +25,15 @@
     <header class="site-header">
             <nav>
             <ul class="nav-left">
-                    <li><a class="script" href="wedding-landing-page.html">The Invite</a></li>
-                    <li><a class="script" href="wedding-deco-styleguide.html">Decoration Style Guide</a></li>
+                    <li><a href="wedding-landing-page.html">The Invite</a></li>
+                    <li><a href="wedding-deco-styleguide.html">Decoration Style Guide</a></li>
             </ul>
             </nav>
             <div id="logo"><img id="logo-dimensions" src="./images/logo-watercolor-final.png" alt="flower ring with infinity symbol inside"/></div>
             <nav>
                 <ul class="nav-right">
-                    <li><a class="script" href="wedding-attire-styleguide.html">Attire Style Guide</a></li>
-                    <li><a class="script" href="wedding-rsvp-page.html">RSVP</a></li>
+                    <li><a href="wedding-attire-styleguide.html">Attire Style Guide</a></li>
+                    <li><a href="wedding-rsvp-page.html">RSVP</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,21 +43,21 @@
         </div>
 <!--I will add more dos and donts as I think of them-->
 <!-- I want to add 2 carousels, One for Dos and One for Donts-->
-        <section>
-            <h2>Groomsmen</h2>
-            <article>
+        <section class="container-fluid">
+            <h2 class="deco-titles">Groomsmen</h2>
+            <article class="inline col">
                 <h3>Do</h3>
                 <ul>
                     <li>Wear a bowtie</li>
                     <li>Acessorize with gold</li>
                     <li>Bring cufflinks</li>
                     <li>Get your suit tailored</li>
-                    <li>(Optional) Wear a cummberbund which matches your tie</li>
-                    <li>Wear a green dress coat and matching pants</li>
+                    <li>(Optional) Wear a cummberbund which matches your tie (green preferred)</li>
+                    <li>Wear a white or black dress coat and matching pants</li>
                     <li>Wear a white dress shirt</li>
                 </ul>
             </article>
-            <article>
+            <article class="inline col">
                 <h3>Don't</h3>
                 <ul>
                     <li>Wear an apron or bolo tie</li>
@@ -54,6 +65,36 @@
                     <li>Use colors not in the provided palette</li>
                 </ul>
             </article>
+            <article id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/grooms-buotonniere.jpg" alt="Los Angeles" width="800" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/groom-bestman.jpg" alt="Chicago" width="800" height="500">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/green-suits.jpg" alt="New York" width="500" height="500">
+                      </div>
+
+                      <!--Controls-->
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                          </a>
+                          <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                          </a>
+                        </div>
+                    </article>
         </section>
 
         <section>
@@ -78,7 +119,10 @@
             </article>
         </section>
     </main>
-    
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

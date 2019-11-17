@@ -9,11 +9,14 @@
 }
 
 *{
-    background-color: #ffe0e1;
     color:#cb8a90;
     font-family:"awesomeregular";
     font-size: 20px;
     font-weight:bold;
+}
+
+body{
+    background-color: white;
 }
 
 .site-header{
@@ -52,6 +55,14 @@ ul.nav-right li {
     display: inline-block;
 }
 
+.inline{
+    display:inline-block;
+}
+
+li{
+    list-style-type: square;
+}
+
 
 li a{
     color:white;
@@ -62,14 +73,20 @@ li a{
     font-family:"awesomescript";
     font-size: 70px;
     font-weight: normal;
+    list-style-type: none;
+}
+
+li a:hover{
+    text-decoration: none;
 }
 
 
 .landing-title{
     padding:1px;
     border:4px;
+    margin:80px;
+    margin-top:20px;
     border-color: white;
-    margin:30px;
     position: relative;
     border-style: dotted;
     border-radius: 25px;
@@ -90,6 +107,7 @@ h1{
     font-size: 20px;
     color:white;
 }
+
 .script{
     text-align:center;
     font-family:"awesomescript";
@@ -149,14 +167,15 @@ h1{
     transform: translateY(100px) ;
 }
 
-.stories{
-    margin-top:20px;
-}
-
 .stories h2{
     font-weight:normal;
     font-size:80px;
     text-align: center;
+}
+
+.margin-stor{
+    margin:20px;
+    margin-top:40px;
 }
 
 .bottom{
@@ -204,7 +223,6 @@ h1{
     margin-bottom:50px;
     margin-left:80px;
     margin-right:80px;
-    border-right-style:solid;
 }
 
 #placards{
@@ -267,4 +285,38 @@ p{
     line-height: 1.6;
 }
 
+.jumbotron {
+    background-image: url("./images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom:30%;
+    margin-top: 0;
+    margin-bottom:50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
+.display-4, .lead{
+    font-family: "awesomeregular";
+    background-color: transparent;
+    color:white;
+}
+
+.btn {
+    background-color: #cb8a90;
+}
+
+.btn:hover{
+    opacity:50%;
+    background-color: #cb8a90;;
+}
+
+.carousel-indicators{
+    background-color: transparent;
+}
+
+section.container-fluid{
+    margin-bottom:80px;
+    margin-top:80px;
+}

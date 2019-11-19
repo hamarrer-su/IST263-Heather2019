@@ -9,7 +9,7 @@
 }
 
 *{
-    color:#cb8a90;
+    color:#be757c;
     font-family:"awesomeregular";
     font-size: 20px;
     font-weight:bold;
@@ -66,7 +66,7 @@ li{
 
 li a{
     color:white;
-    background-color:#cb8a90;
+    background-color:#be757c;
     border-radius: 50px;
     text-decoration: none;
     text-align:center;
@@ -90,20 +90,20 @@ li a:hover{
     position: relative;
     border-style: dotted;
     border-radius: 25px;
-    background-color: #cb8a90;
+    background-color: #be757c;
 }
 
 
 h1{
     margin-top:20px;
     margin-bottom:10px;
-    background-color: #cb8a90;
+    background-color: #be757c;
     color:white;
 }
 
 .blurb{
     text-align: center;
-    background-color:#cb8a90;
+    background-color:#be757c;
     font-size: 20px;
     color:white;
 }
@@ -179,7 +179,7 @@ h1{
 }
 
 .bottom{
-    border-bottom: 1px dotted #cb8a90;
+    border-bottom: 1px dotted #be757c;
 }
 
 
@@ -248,7 +248,7 @@ input{
 }
 
 input:focus{
-    border: 3px solid #cb8a90;
+    border: 3px solid #be757c;
 }
 
 .deco-titles{
@@ -304,12 +304,12 @@ p{
 }
 
 .btn {
-    background-color: #cb8a90;
+    background-color: #be757c;
 }
 
 .btn:hover{
     opacity:50%;
-    background-color: #cb8a90;;
+    background-color: #be757c;
 }
 
 .carousel-indicators{

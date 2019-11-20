@@ -153,6 +153,10 @@ h1{
     text-align: center;
 }
 
+.col{
+    padding:50px;
+}
+
 .margin-stor{
     margin:20px;
     margin-top:40px;

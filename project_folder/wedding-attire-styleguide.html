@@ -23,19 +23,35 @@
 
 <body>
     <header class="site-header">
-            <nav>
-            <ul class="nav-left">
-                    <li><a href="wedding-landing-page.html">The Invite</a></li>
-                    <li><a href="wedding-deco-styleguide.html">Decoration Style Guide</a></li>
-            </ul>
-            </nav>
-            <div id="logo"><img id="logo-dimensions" src="./images/logo-watercolor-final.png" alt="flower ring with infinity symbol inside"/></div>
-            <nav>
-                <ul class="nav-right">
-                    <li><a href="wedding-attire-styleguide.html">Attire Style Guide</a></li>
-                    <li><a href="wedding-rsvp-page.html">RSVP</a></li>
-                </ul>
-            </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="wedding-landing-page.html">
+                        <img src="./images/logo-watercolor-final.png" width="150" height="150" alt="Flower Wreath">
+                        </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-landing-page.html">The Invite<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-deco-styleguide.html">Decoration Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-attire-styleguide.html">Attire Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="wedding-rsvp-page.html">RSVP</a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                </nav>
         </header>
     <main>
         <div class="landing-title">

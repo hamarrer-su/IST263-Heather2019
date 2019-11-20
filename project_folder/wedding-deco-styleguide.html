@@ -6,27 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Decoration Styleguide</title>
-       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
     <link rel="stylesheet" type="text/css" href="projstyle.css" />
 <!--Will add the stylesheet later-->
 </head>
 
 <body>
     <header class="site-header">
-            <nav>
-            <ul class="nav-left">
-                    <li><a href="wedding-landing-page.html">The Invite</a></li>
-                    <li><a href="wedding-deco-styleguide.html">Decoration Style Guide</a></li>
-            </ul>
-            </nav>
-            <div id="logo"><img id="logo-dimensions" src="./images/logo-watercolor-final.png" alt="flower ring with infinity symbol inside"/></div>
-            <nav>
-                <ul class="nav-right">
-                    <li><a href="wedding-attire-styleguide.html">Attire Style Guide</a></li>
-                    <li><a href="wedding-rsvp-page.html">RSVP</a></li>
-                </ul>
-            </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="wedding-landing-page.html">
+                        <img src="./images/logo-watercolor-final.png" width="150" height="150" alt="Flower Wreath">
+                        </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-landing-page.html">The Invite<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-deco-styleguide.html">Decoration Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wedding-attire-styleguide.html">Attire Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="wedding-rsvp-page.html">RSVP</a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                </nav>
         </header>
     <main>
         <div class="landing-title">
@@ -37,21 +53,23 @@
         <section class="palette-borders">
             <h3 class="deco-blurb">colors</h3>
             <article class="container">
-                <img class="palette" src="./images/peach.png" alt="color peach"/>
-                <img class="palette" src="./images/mauve-blush.png" alt="color mauve pink"/>
-                <img class="palette" src="./images/slate.png" alt="color purple hued grey"/>
-                <img class="palette" src="./images/evergreen.png" alt="color dark green"/>
-                <img class="palette" src="./images/foam.png" alt="color seafoam green"/>
-                <img class="palette" src="./images/gold-foil.png" alt="gold foil"/>
+                <div class="row">
+                    <img class="palette col" src="./images/peach.png" alt="color peach"/>
+                    <img class="palette col" src="./images/mauve-blush.png" alt="color mauve pink"/>
+                    <img class="palette col" src="./images/slate.png" alt="color purple hued grey"/>
+                    <img class="palette col" src="./images/evergreen.png" alt="color dark green"/>
+                    <img class="palette col" src="./images/foam.png" alt="color seafoam green"/>
+                    <img class="palette col" src="./images/gold-foil.png" alt="gold foil"/>
+                </div>
             </article>
         </section>
 
         <section class="embellishments-borders">
             <h3 class="deco-blurb">brand symbols</h3>
-            <article class="container">
-                <img class="embellishments col" src="./images/embellishment-accents.png"/>
-                <img class="embellishments col-6" src="./images/logo-watercolor-final.png" alt="flower ring with infinity symbol inside"/>
-                <img class="embellishments col" src="./images/wedding-tags.png"/>
+            <article class="inline container">
+                <img class="embellishments col" src="./images/embellishment-accents.png" alt="small embellishments and accents"/>
+                <img class="embellishments col" src="./images/logo-watercolor-final.png" alt="flower ring with infinity symbol inside"/>
+                <img class="embellishments col" src="./images/wedding-tags.png" alt="decorative tag"/>
             </article>
         </section>
 
@@ -126,10 +144,9 @@
         </section>
     </main>
     
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
--->
 </body>
 
 </html>

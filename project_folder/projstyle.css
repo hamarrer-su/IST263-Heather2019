@@ -17,64 +17,43 @@
 
 body{
     background-color: white;
+    padding-top: 200px;
 }
 
-.site-header{
-    display:flex;
+
+.my-dropdown-toggle::after {
+    content: none;
+}
+
+
+i{
+    font-family:"awesomescript";
 }
 
 #logo{
-    flex:1;
-    display: inline-block;
-    align-content: center;
-    margin-right: 10px;
+
 }
+
 
 #logo-dimensions{
     width:200px;
 }
 
-nav ul.nav-left{
-    flex:1;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-nav ul.nav-right{
-    flex:1;
-    list-style-type: none;
-    transform: translate(-150px);
-    margin-right: 20px;
-}
-
-ul.nav-left li {
-    display: inline-block;
-}
-
-ul.nav-right li {
-    display: inline-block;
-}
 
 .inline{
     display:inline-block;
 }
+
 
 li{
     list-style-type: square;
 }
 
 
-li a{
-    color:white;
-    background-color:#be757c;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align:center;
-    font-family:"awesomescript";
-    font-size: 70px;
-    font-weight: normal;
+li.nav-item{
     list-style-type: none;
 }
+
 
 li a:hover{
     text-decoration: none;
@@ -85,7 +64,7 @@ li a:hover{
     padding:1px;
     border:4px;
     margin:80px;
-    margin-top:20px;
+    margin-top:50px;
     border-color: white;
     position: relative;
     border-style: dotted;
@@ -136,6 +115,7 @@ h1{
 .invite:hover{
     opacity: .5;
 }
+
 
 .navbar a:hover{
     opacity: .5;
@@ -305,6 +285,7 @@ p{
 
 .btn {
     background-color: #be757c;
+    border-style: none;
 }
 
 .btn:hover{
@@ -320,3 +301,4 @@ section.container-fluid{
     margin-bottom:80px;
     margin-top:80px;
 }
+

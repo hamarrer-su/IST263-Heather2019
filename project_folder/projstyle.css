@@ -187,6 +187,7 @@ h1{
 
 .embellishments-borders{
     border-bottom-style:solid;
+    mask-border-width: 100%;
 }
 
 .palette{
@@ -238,7 +239,7 @@ input:focus{
 .deco-titles{
     font-family:"awesomescript";
     font-size: 80px;
-    text-align: left;
+    text-align: center;
     font-weight: normal;
     margin-bottom: 50px;
 }
@@ -250,18 +251,6 @@ input:focus{
     margin-top: 5px;
     margin-bottom:5px;
     font-weight:bold;
-}
-
-.guidelines{
-    display:flex;
-}
-
-.do{
-    flex:1;
-}
-
-.dont{
-    flex:1;
 }
 
 
@@ -301,9 +290,25 @@ p{
     background-color: transparent;
 }
 
+.tales {
+    width: 100%;
+  }
+  .carousel-inner{
+    width:100%;
+    max-height: 800px !important;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 100px;
+  }
+
 section.container-fluid{
     margin-bottom:80px;
     margin-top:80px;
 }
 
+
+.float-right{
+    float:right;
+}
  

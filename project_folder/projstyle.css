@@ -187,7 +187,7 @@ h1{
 
 .embellishments-borders{
     border-bottom-style:solid;
-    mask-border-width: 100%;
+    flex-direction: ;
 }
 
 .palette{
@@ -273,7 +273,7 @@ p{
 .display-4, .lead{
     font-family: "awesomeregular";
     background-color: transparent;
-    color:white;
+    color:black;
 }
 
 .btn {

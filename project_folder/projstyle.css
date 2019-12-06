@@ -276,6 +276,10 @@ p{
     color:black;
 }
 
+.btn.btn-outline-success.my-2.my-sm-0{
+    color:white;
+}
+
 .btn {
     background-color: #be757c;
     border-style: none;
